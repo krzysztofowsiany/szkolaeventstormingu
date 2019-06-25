@@ -62,3 +62,7 @@ gulp.task('private-policy-sassMin', () => {
 gulp.task('watch', () => {
     gulp.watch('./build/sass/**/*.scss', gulp.parallel('sass', 'sassMin','private-policy-sass', 'private-policy-sassMin'));
 });
+
+
+gulp.task('build', 
+    gulp.series(['sass', 'sassMin','private-policy-sass', 'private-policy-sassMin']));
