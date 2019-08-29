@@ -114,7 +114,7 @@
                                             value="">
                                     </div>
 
-                                    <button data-element="submit" class="form-download-submit"
+                                    <button data-element="submit" class="form-download-submit" id="join_button"
                                         style="background-color:#1677be;border-radius:4px;color:#fff;font-weight:400">
                                         <span>TAK, dołączam!</span>
                                     </button>
@@ -156,6 +156,15 @@
 
             $('.smooth-goto').on('click', function () {
                 $('html, body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+                return false;
+            });
+
+
+            $('#join_button').on('click', function () {
+                var form = document.getElementById("mc-embedded-subscribe-form");
+                form.submit();
+                $.get("https://szkolaeventstormingu.pl?utm_source=self&utm_medium=sub&utm_campaign=szkolaeventstormingu&utm_content=submit");
+            
                 return false;
             });
         });
