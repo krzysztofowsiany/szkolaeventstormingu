@@ -41,13 +41,31 @@
 
 	var fullHeight = function() {
 
-		$('.js-fullheight').css('height', $(window).height());
+		var h = $(window).height();
+		var w = $(window).width();
+		var size = h;
+
+		if (h>w)
+			size = w;
+
+		$('.js-fullheight').css('height', size);
 		$(window).resize(function(){
-			$('.js-fullheight').css('height', $(window).height());
+			$('.js-fullheight').css('height',size);
 		});
 
 	};
 	fullHeight();
+
+
+	var fullWidth = function() {
+
+		$('.js-fullwidth').css('width', $(window).width());
+		$(window).resize(function(){
+			$('.js-fullwidth').css('width', $(window).width());
+		});
+
+	};
+	fullWidth();
 
 	// loader
 	var loader = function() {
