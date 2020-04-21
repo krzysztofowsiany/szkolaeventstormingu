@@ -341,9 +341,12 @@
 
 
 function makeTimer() {
+		var start = "2020/05/20"
 
-		var endTime = new Date("21 December 2019 9:56:00 GMT+01:00");			
+		var endTime = new Date(start);			
+
 		endTime = (Date.parse(endTime) / 1000);
+
 
 		var now = new Date();
 		now = (Date.parse(now) / 1000);
@@ -359,10 +362,10 @@ function makeTimer() {
 		if (minutes < "10") { minutes = "0" + minutes; }
 		if (seconds < "10") { seconds = "0" + seconds; }
 
-		$("#days").html(days + "<span>Days</span>");
-		$("#hours").html(hours + "<span>Hours</span>");
-		$("#minutes").html(minutes + "<span>Minutes</span>");
-		$("#seconds").html(seconds + "<span>Seconds</span>");		
+		$("#days").html(days + "<span>dni</span>");
+		$("#hours").html(hours + "<span>godzin</span>");
+		$("#minutes").html(minutes + "<span>minut</span>");
+		$("#seconds").html(seconds + "<span>sekund</span>");		
 
 }
 
