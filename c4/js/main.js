@@ -59,9 +59,9 @@
 
 	var fullWidth = function() {
 
-		$('.js-fullwidth').css('width', $(window).width());
+		$('.js-fullwidth').css('width', $(window).width()-30);
 		$(window).resize(function(){
-			$('.js-fullwidth').css('width', $(window).width());
+			$('.js-fullwidth').css('width', $(window).width()-30);
 		});
 
 	};
@@ -363,9 +363,9 @@ function makeTimer() {
 		if (seconds < "10") { seconds = "0" + seconds; }
 
 		$("#days").html(days + "<span>dni</span>");
-		$("#hours").html(hours + "<span>godzin</span>");
-		$("#minutes").html(minutes + "<span>minut</span>");
-		$("#seconds").html(seconds + "<span>sekund</span>");		
+		$("#hours").html(hours + "<span>h</span>");
+		$("#minutes").html(minutes + "<span>m</span>");
+		$("#seconds").html(seconds + "<span>s</span>");		
 
 }
 
