@@ -341,7 +341,7 @@
 
 
 function makeTimer() {
-		var start = "2020/05/20"
+		var start = "2020/06/15"
 
 		var endTime = new Date(start);			
 
