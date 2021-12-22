@@ -1,198 +1,748 @@
-<!doctype html>
-<html lang="pl">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-P47SWB6');</script>
-    <!-- End Google Tag Manager -->
-  
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
-    <link rel="stylesheet" href="assets/vendors/bootstrap-4.2.1-dist/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/css/custom.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Pora na BigPicture</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.6.0.slim.js"
+  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+  crossorigin="anonymous"></script>
 
-    <!-- Facebook Pixel Code -->
-<script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '666882874305300');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=666882874305300&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Facebook Pixel Code -->
+<style>
+body {
+  overflow-x:hidden;
+}
+</style>
 </head>
 
-<body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P47SWB6" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <header class="header what-is-event-storming">
-        <div class="container ">
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto ">
-                    <a href="https://mrdev.pl/eventstorming-co-to-takiego">Nie wiesz czym jest <b>Event
-                            Storming</b>?</a>
+<body style="background: var(--bs-light);filter: blur(0px) sepia(0%);">
+    <nav class="navbar navbar-light navbar-expand-md bg-light">
+        <div class="container-fluid"><a class="navbar-brand d-md-flex align-items-md-center" href="#" style="width: 253px;min-width: 253px;font-size: 23px;font-weight: bold;"><img class="img-fluid d-md-flex align-items-md-center" src="assets/img/pora_na_big_picture.png" width="70" style="padding: 5px;height: auto;">Pora na BigPicture</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-2" style="margin-left: 0;">
+                <ul class="navbar-nav">
+                    <li class="nav-item d-md-flex align-items-md-center"><a class="nav-link active d-md-flex ms-auto align-items-md-center" href="https://courses.mrdev.pl/private-policy" target="_parent" style="font-size: 18px;font-weight: bold;text-align: center;">Polityka prywatności</a></li>
+                    <li class="nav-item d-md-flex align-items-md-center"><a class="nav-link d-md-flex ms-auto align-items-md-center" href="https://courses.mrdev.pl/terms-and-conditions" target="_parent" style="font-size: 18px;font-weight: bold;">Regulamin</a></li>
+                </ul><a class="btn btn-primary d-md-flex ms-auto align-items-md-center" role="button" href="https://secure.tpay.com/?h=f9ad33b6d1c72bce7e95047dbe91d6e5f6b214e5" style="background: rgb(255,122,0);font-size: 24px;" target="_blank">DOŁĄCZAM DO KURSU</a>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center text-white masthead" style="background: rgb(255,122,0);padding: 0px;height: auto;min-height: auto;">
+        <div class="container" style="min-width: auto;width: auto;padding-right: 0px;padding-left: 0px;">
+            <div class="row d-xl-flex justify-content-xl-end align-items-xl-end" style="margin-right: 0px;margin-left: 0px;">
+                <div class="col-xl-6 align-self-center position-relative" style="min-width: auto;height: auto;padding-bottom: 16px;padding-left: 0px;padding-right: 0px;">
+                    <h1 class="text-center" style="color: var(--bs-gray-900);font-weight: bold;text-align: center;min-width: auto;height: auto;min-height: auto;margin-bottom: 34px;margin-top: 9px;">Rozpocznij swoją przygodę z BigPicture EventStorming.</h1>
+                    <ul class="list-group text-center d-xxl-flex justify-content-xxl-center" style="width: 251px;text-align: center;margin: auto;">
+                        <li class="list-group-item border rounded-pill d-xxl-flex justify-content-xxl-center align-items-xxl-center" style="background: var(--bs-red);font-size: 20px;text-align: center;color: var(--bs-light);"><span>Kurs online</span></li>
+                        <li class="list-group-item border rounded-pill d-xxl-flex justify-content-xxl-center align-items-xxl-center" style="background: var(--bs-red);color: var(--bs-light);"><span style="font-size: 20px;">15 modułów</span></li>
+                        <li class="list-group-item border rounded-pill d-xxl-flex justify-content-xxl-center align-items-xxl-center" style="background: var(--bs-red);font-size: 20px;color: var(--bs-light);width: auto;"><span>Ponad 140 lekcji</span></li>
+                        <li class="list-group-item border rounded-pill d-xxl-flex justify-content-xxl-center align-items-xxl-center" style="background: var(--bs-red);font-size: 20px;color: var(--bs-light);width: auto;"><span>Dostęp do warsztatów</span></li>
+                    </ul>
                 </div>
+                <div class="col-xl-6 float-none d-xl-flex align-self-center justify-content-xl-center align-items-xl-start position-relative" style="min-width: auto;height: auto;padding-left: 0px;padding-right: 0px;"><img style="background: url(&quot;assets/img/me.png&quot;) no-repeat;min-width: none;width: none;height: 422px;background-size: cover;" src="assets/img/me.png"></div>
             </div>
         </div>
     </header>
-    <header class="header">
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto logo">
-                    <a href="/" target="_blank">
-                        <img src="assets/images/logo.png" class="img-fluid">
-                    </a>
+    <section class="countdown-section">
+        <div class="container" style="padding-right: 0px;padding-left: 0px;">
+            <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                <div class="col countdown-header" style="width: 219px;padding-left: 0px;padding-right: 0px;">
+                    <h1>Do końca sprzedaży pozostało</h1>
                 </div>
             </div>
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto">
-                    <h1 class="text-kurs-es">Szkoła <strong>Event Stormingu</strong></h1>
-                </div>
+            <div class="row big-countdown" data-countdown="12/30/2021 21:00:00" style="margin-right: 0px;margin-left: 0px;">
+                <div class="col-6 col-sm-3" style="padding-left: 0px;padding-right: 0px;"><span class="number-days">00</span><span class="txt-countdown">dni</span></div>
+                <div class="col-6 col-sm-3"><span class="number-hours">00</span><span class="txt-countdown">godzin</span></div>
+                <div class="col-6 col-sm-3"><span class="number-minutes">00</span><span class="txt-countdown">minut</span></div>
+                <div class="col-6 col-sm-3"><span class="number-seconds">00</span><span class="txt-countdown">sekund</span></div>
             </div>
-        </div>
-    </header>
-    <section class="download">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <img class="book" src="assets/images/5_sposobow_na_zrozumienie_biznesu_cover.png">
-                </div>
-                <div class="col-sm-4">
-                    <div class="information">
-                        Komunikacja to <b class="big-text">trudna</b> umiejętność. Należy ją rozwijać.
-                        <br>
-                        <br>
-                        Dlatego mam dla Ciebie darmowy poradnik.<br><br>
-                        <b class="big-text" style="color:red;font-size: 32pt;">5 sposobów na zrozumienie biznesu.</b>
-                        <br>
-                        <br>
-                        Dowiesz się z niego jak efektywniej <b class="big-text">dogadywać się</b> i <b
-                            class="big-text">rozumieć</b> klienta/biznes.
-                        <br>
-                        <br>
-                        <br>
-                        Piąta metoda da Ci najwięcej <b class="big-text">wartości!</b>
-                        <br>
-                        <br>
-                        PS: Nie poprzestałem na poradniku. Jest tego znacznie <b class="big-text">więcej</b>.
-                        <br>
-                        <br>
-                        <b class="big-text">Dołączysz?</b>
-
-                    </div>
-
-                    <br>
-                    <br>
-
-                    <form
-                        action="https://szkolaeventstormingu.us15.list-manage.com/subscribe/post"
-
-                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                        class="form-download" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <div data-style="clean">
-                                <div class="form-download-fields">
-                                    <input type="text" name="MERGE1" id="MERGE1" class="form-control" placeholder="Podaj imię">
-                                    <input type="email" name="MERGE0" id="MERGE0" class="form-control" placeholder="Adres email">
-                                    <input type="hidden" name="u" value="3be80412cad8b939995932c2a">
-                                    <div class="form-download-field">
-                                        <input type="hidden" name="id" value="ccc20bbb88" class="formkit-input" placeholder="E-mail" style="border-color:#e3e3e3;border-radius:4px;color:#000;font-weight:400">
-                                    </div>
-
-                                    <button data-element="submit" class="form-download-submit" id="join_button"
-                                        style="background-color:#1677be;border-radius:4px;color:rgb(0, 0, 0);font-weight:400">
-                                        <span>TAK, dołączam!</span>
-                                    </button>
-
-                                    <div id="mce-responses" class="clear">
-                                        <div class="response" id="mce-error-response" style="display:none">
-                                        </div>
-                                        <div class="response" id="mce-success-response" style="display:none">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                    </form>
-                </div>
-            </div>
-
         </div>
     </section>
-
-
-    <footer>
+    <section>
+        <div class="row" style="background: var(--bs-light);">
+            <div class="col countdown-header" style="width: 219px;">
+                <h1 style="text-align: center;">Co otrzymasz w kursie?</h1>
+            </div>
+        </div>
+    </section>
+    <section class="text-center bg-light features-icons" style="padding-top: -0px;">
         <div class="container">
-
-            Pobierając poradnik dodam Cię do listy mailowej,
-            z której możesz się wypisać w dowolnym momencie (jeden klik). <br>
-
-            &copy; 2019 GemuStudio Krzysztof Owsiany <br>
-
-            <a href="./polityka-prywatnosci.html" target="_blank">
-                Polityka Prywatności
-            </a>
-
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="material-icons m-auto text-primary" data-bss-hover-animate="pulse">timer_off</i></div>
+                        <h3>Bezterminowy dostęp</h3>
+                        <p class="lead mb-0">Puki żyję będziesz miał dostęp do kursu...</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="material-icons m-auto text-primary" data-bss-hover-animate="pulse">view_module</i></div>
+                        <h3>15 modułów</h3>
+                        <p class="lead mb-0">Program został podzielony na 15 modułów. W każdym będą lekcje.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="material-icons m-auto text-primary" data-bss-hover-animate="pulse">update</i></div>
+                        <h3>Dostęp do aktualizacji</h3>
+                        <p class="lead mb-0">Jeżeli będę aktualizował kurs. Coś dogrywał. Te zmiany będą Cię obowiązywać bezterminowo. Czyli zawsze.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center bg-light features-icons" style="padding-top: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-facebook m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Dostęp do grupy na Facebooku</h3>
+                        <p class="lead mb-0">Dostaniesz dostęp do zamkniętej grupy na facebooku.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-camrecorder m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Dostęp do nagrań warsztatów</h3>
+                        <p class="lead mb-0">W kursie znajdują się nagrania warsztatów BigPicture. Do nich też masz dostęp. Także do kolejnych jakie się pojawią.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="material-icons m-auto text-primary" data-bss-hover-animate="pulse">ondemand_video</i></div>
+                        <h3>Dostęp do webinarów</h3>
+                        <p class="lead mb-0">Otrzymasz dostęp do wszystkich webinarów. Tych nagranych i jeszcze nie nagranych.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center bg-light features-icons" style="padding-top: 0px;padding-bottom: 40px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="material-icons m-auto text-primary" data-bss-hover-animate="pulse">work</i></div>
+                        <h3>Możliwość uczestniczenia w warsztatach online</h3>
+                        <p class="lead mb-0">Planuję przeprowadzić z uczestnikami warsztat BigPicture.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-options m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Bonusy</h3>
+                        <p class="lead mb-0">Otrzymasz też dostęp do wszystkich bonusów: dokumentów, prezentacji.</p>
+                        <p class="lead mb-0"></p>
+                        <p class="lead mb-0"></p>
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </section>
+    <section style="background: var(--bs-orange);padding-bottom: 50px;padding-top: 50px;">
+        <div class="container" style="text-align: center;font-size: 27px;">
+            <div class="row" style="background: transparent;text-align: center;">
+                <div class="col">
+                    <h1>Do kiedy można kupić kurs?</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"><span>Kurs możesz zakupić do <strong>21.00 30 grudnia 2021</strong>. </span></div>
+            </div>
+            <div class="row">
+                <div class="col"><span>Po tym czasie nie będzie już możliwości dołączenia.&nbsp;</span></div>
+            </div>
+            <div class="row">
+                <div class="col"><span>&nbsp;W nowym roku cena na pewno <strong>wzrośnie</strong>.&nbsp;</span></div>
+            </div>
+        </div>
+    </section>
+    <section style="background: var(--bs-light);padding-top: 50px;padding-bottom: 50px;">
+        <div class="container" style="text-align: center;font-size: 27px;">
+            <div class="row" style="background: transparent;text-align: center;">
+                <div class="col">
+                    <h1>Masz firmę?</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"><span>Jeżeli planujesz zmianę sposobu opodatkowania.</span></div>
+            </div>
+            <div class="row">
+                <div class="col"><span>To może być <strong>ostatni gwizdek</strong> dla Ciebie<strong> by</strong> <strong>wrzucić kurs w koszty</strong>.</span></div>
+            </div>
+            <div class="row">
+                <div class="col"><span>&nbsp;&nbsp;</span></div>
+            </div>
+            <div class="row">
+                <div class="col"><span>Sam dokonuję strategicznych zakupów i zmieniam formę opodatkowania.</span></div>
+            </div>
+            <div class="row">
+                <div class="col"><span><strong>Co chcesz kupić jutro</strong>. <strong>Kup dzisiaj i odlicz,</strong> być może ostatni raz w tym stuleciu xD.</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="highlight-blue" style="background: var(--bs-orange);">
+        <div class="container">
+            <div class="intro">
+                <h1 class="text-center" style="color: var(--bs-body-color);">Pora na Twój ruch.</h1>
+                <p class="text-center" style="color: var(--bs-body-color);font-size: 24px;">Wejdź do świata analizy problemów za pomocą faktów. Dogadaj się z biznesem i podnieść jakość oprogramowania!</p>
+            </div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="https://secure.tpay.com/?h=f9ad33b6d1c72bce7e95047dbe91d6e5f6b214e5" style="font-size: 34px;color: var(--bs-body-color);background: var(--bs-yellow);" target="_blank">CHCĘ NAUCZYĆ SIĘ BIGPICTURE EVENTSTORMING!</a>
+                <div style="width: auto;color: var(--bs-body-color);"><span style="font-size: 20px;width: auto;text-align: center;">Przed dołączeniem. Zapoznaj się z <a class="d-inline-block" href="https://courses.mrdev.pl/private-policy" target="_blank" style="color: var(--bs-light);text-decoration: none;">Polityką Prywatności<br></a>&nbsp;i&nbsp;<a href="https://courses.mrdev.pl/terms-and-conditions" style="color: var(--bs-light);text-decoration: none;">Regulaminem.<br></a></span></div>
+            </div>
+        </div>
+    </section>
+    <section class="countdown-section">
+        <div class="container">
+            <div class="row">
+                <div class="col countdown-header" style="width: 219px;">
+                    <h1>Do końca sprzedaży jeszcze!</h1>
+                </div>
+            </div>
+            <div class="row big-countdown" data-countdown="12/30/2021 21:00:00">
+                <div class="col-6 col-sm-3"><span class="number-days">00</span><span class="txt-countdown">dni</span></div>
+                <div class="col-6 col-sm-3"><span class="number-hours">00</span><span class="txt-countdown">godzin</span></div>
+                <div class="col-6 col-sm-3"><span class="number-minutes">00</span><span class="txt-countdown">minut</span></div>
+                <div class="col-6 col-sm-3"><span class="number-seconds">00</span><span class="txt-countdown">sekund</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="highlight-blue" style="background: var(--bs-body-bg);">
+        <div class="container">
+            <div class="intro">
+                <h1 class="text-center" style="color: var(--bs-body-color);">Gwarancja satysfakcji</h1>
+                <p class="text-center" style="color: var(--bs-body-color);font-size: 24px;">Nic nie ryzykujesz. Do <strong>20 stycznia 2022</strong> możesz zwrócić kurs bez podawania przyczyny. Wystarczy, że mi napiszesz na <strong>krzysztof@mrdev.pl</strong>.</p>
+            </div>
+            <div class="buttons"></div>
+        </div>
+    </section>
+    <section>
+        <div class="row" style="background: var(--bs-light);">
+            <div class="col countdown-header" style="width: 219px;">
+                <h1 style="text-align: center;">Agenda kursu</h1>
+            </div>
+        </div>
+    </section>
+    <section class="text-center bg-light features-icons" style="padding-top: -0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 1: Początek</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>Powitanie.</li>
+                            <li>o prowadzącym.</li>
+                            <li>o kursie.</li>
+                            <li>jak przechodzić kurs?</li>
+                            <li>praca z karteczkami samoprzylepnymi.</li>
+                            <li>gdzie kupić postity.</li>
+                            <li>PRzygotowanie tablicy.</li>
+                            <li>miejsce na warsztat.</li>
+                            <li>Wstęp do miro.</li>
+                            <li>Kila słów O Eventstormingu.</li>
+                            <li>Wstęp do Bigpicture.</li>
+                            <li>Design thinking.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 2: Wyznaczanie celu warsztatu</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>wstęp.</li>
+                            <li>Gdy znasz problem.</li>
+                            <li>NIe znasz problemu.</li>
+                            <li>Wiemy co chcemy.</li>
+                            <li>value proposition mapping.</li>
+                            <li>LEan canvas.</li>
+                            <li>Business model canvas.</li>
+                            <li>impact mapping.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 3: Dobieranie ludzi na warsztat</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>wstęp.</li>
+                            <li>conway's law.</li>
+                            <li>osoby z projektu.</li>
+                            <li>brainstorming.</li>
+                            <li>stakeholder mapping.</li>
+                            <li>Zadanbie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 4: Etapy BigPicture</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>Wstęp.</li>
+                            <li>legenda.</li>
+                            <li>I Wild exploration.</li>
+                            <li>II enforce the timeline.</li>
+                            <li>III Reverse narrative.</li>
+                            <li>IV Actors &amp; systems.</li>
+                            <li>V opportunities.</li>
+                            <li>VI value proposition mapping.</li>
+                            <li>VII voting.</li>
+                            <li>subdomains.</li>
+                            <li>bounded contexts.</li>
+                            <li>Inputs/outputs.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 5: Rozszerzenia w BigPicture</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>wstęp.</li>
+                            <li>action points</li>
+                            <li>Metryki.</li>
+                            <li>wejścia i wyjścia.</li>
+                            <li>Łączenie podprocesów.</li>
+                            <li>adaptowanie do swoich potrzeb.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 6: Dobieranie elementów BigPicture do celu</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>Wstęp.</li>
+                            <li>POD-domeny</li>
+                            <li>Bounded CONTEXTy.</li>
+                            <li>Ryzyka.</li>
+                            <li>Szanse na poprawę.</li>
+                            <li>MEtryki.</li>
+                            <li>Model C4.</li>
+                            <li>Refaktoryzacja.</li>
+                            <li>Dzielenie się wiedzą.</li>
+                            <li>bdd.</li>
+                            <li>Wyszukiwanie ryzyk.</li>
+                            <li>mapowanie.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 7: Przebieg warsztatu</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>wstęp.</li>
+                            <li>rola mózgu w warsztatach.</li>
+                            <li>Rola warsztatu na nogach.</li>
+                            <li>myślenie rozbieżne (divergent).</li>
+                            <li>myślenie wyłaniające się(Emergent).</li>
+                            <li>myślenie zbieżne (convergent).</li>
+                            <li>przykładowe warsztaty z narracją.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 8: Więcej o zdarzeniach</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>wstęp.</li>
+                            <li>poziomy zdarzeń.</li>
+                            <li>typy zdarzeń.</li>
+                            <li>pivotal event.</li>
+                            <li>trigger event.</li>
+                            <li>łączenie procesów eventami.</li>
+                            <li>używanie danych w zdarzeniach.</li>
+                            <li>złożoność procesu na bazie zdarzeń.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 9: Narzędzia facylitatora offline</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>wstęp.</li>
+                            <li>torba prowadzącego.</li>
+                            <li>postity - building bloki.</li>
+                            <li>taśmy.</li>
+                            <li>Folia magnetyczna.</li>
+                            <li>papier w rolkach.</li>
+                            <li>magnetyczne postity.</li>
+                            <li>czytanie mowy ciała.</li>
+                            <li>zadawanie pytań.</li>
+                            <li>wiedza o archetypach.</li>
+                            <li>znajomość wielu domen.</li>
+                            <li>doświadczenie.</li>
+                            <li>minimalny zestaw narzędzi.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 10: Narzędzia facylitatora online</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>WSTĘp.</li>
+                            <li>ile osób!</li>
+                            <li>Miro.</li>
+                            <li>ZOOM.</li>
+                            <li>MURAL.</li>
+                            <li>wady warsztatów online.</li>
+                            <li>zalety warsztatów online.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 12: Miro</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>WSTĘp.</li>
+                            <li>interfejs.</li>
+                            <li>postity.</li>
+                            <li>formatowanie.</li>
+                            <li>łączenie.</li>
+                            <li>hotspoty.</li>
+                            <li>głosowanie.</li>
+                            <li>ramki.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 12: Rola facylitatora</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>Wstęp.</li>
+                            <li>przygotowanie miejsca.</li>
+                            <li>prowadzenie ludzi przez warsztat.</li>
+                            <li>Dyskusje.</li>
+                            <li>Rozwiązywanie konfliktów.</li>
+                            <li>PRzerwy.</li>
+                            <li>czyszczenie tablicy.</li>
+                            <li>inicjowanie procesu.</li>
+                            <li>NIe ingerować.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 13: Radzenie sobie z trudnymi uczestnikami</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>wstęp.</li>
+                            <li>podział na grupy.</li>
+                            <li>odseparowanie trudnych uczestników.</li>
+                            <li>gra w 6 kalepuszy.</li>
+                            <li>zaspokojenie potrzeb problematycznych osób.</li>
+                            <li>identyfikacja negatywnego bohatera.</li>
+                            <li>gra w 6 kalepuszy.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 14: Co po warsztacie</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>wstęp.</li>
+                            <li>process level event storming.</li>
+                            <li>design level event storming.</li>
+                            <li>event modeling.</li>
+                            <li>USER STORY MAPPING.<br></li>
+                            <li>RETROSPEKTYWA.<br></li>
+                            <li>bigpicture - jeszcze raz.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-social-dropbox m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Moduł 15: Zakończenie</h3>
+                        <ol class="text-uppercase text-start" style="font-size: 20px;">
+                            <li>wstęp.</li>
+                            <li>nie poddawaj się.</li>
+                            <li>zacznij od domeny którą znasz.</li>
+                            <li>pierwszy warsztat jako nauka metody.</li>
+                            <li>poprowadź pierwszy raz z kimś kto zna Bigpicture.</li>
+                            <li>przygotuj sobie scenariusz/listę todo.</li>
+                            <li>więcej na temat eventstormingu.</li>
+                            <li>podziękowanie.</li>
+                            <li>poleć kurs.</li>
+                            <li>feedbakc - opinia.</li>
+                            <li>nagrania warsztatów.</li>
+                            <li>zadanie domowe.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row" style="background: var(--bs-light);">
+            <div class="col countdown-header" style="width: 219px;">
+                <h1 style="text-align: center;">Ile kosztuje kurs?</h1>
+            </div>
+        </div>
+    </section>
+    <section class="showcase">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-6 text-white order-lg-2 showcase-img" style="background: url(&quot;assets/img/segfault-me.png&quot;) center / cover;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Lekcje w formie wideo</h2>
+                    <p class="lead mb-0">Lekcję będę prowadził w formie wideo. Głównie to będzie Miro. Dzięki temu możesz zwalniać, przyśpieszać ponawiać i przyswajać informacje wedle własnego tempa.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img" style="background: url(&quot;assets/img/IMG_6837.jpg&quot;) center / auto no-repeat;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Zadania domowe</h2>
+                    <p class="lead mb-0">Dostaniesz przynajmniej jedno zadanie domowe do każdego modułu. Tak by zastosować wiedzę z nagrania na żywym przykładzie.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white order-lg-2 showcase-img" style="background: url(&quot;assets/img/pg-37-old-tech-vhs.jpg&quot;) center / cover;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Ponad 10 godzin nagrań wideo</h2>
+                    <p class="lead mb-0">Tak na start przynajmniej 10 godzin nagrań. Natomiast będzie znacznie więcej. Jeden warsztat to 3-4h nagrania. Do tego webinary, prezentacje. Nazbiera się znacznie więcej.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img" style="background: url(&quot;assets/img/swadhin-analog-alarm-clock-twin-bell-500x500.jpg&quot;) center / cover no-repeat;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Bezterminowy dostęp do kursu</h2>
+                    <p class="lead mb-0">Otrzymasz wieczny dostęp do kursu. Nawet jak zamknę biznes i platformę to udostępnię Ci go w inny możliwy sposób. Spokojnie nie planuję tego ;)</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white order-lg-2 showcase-img" style="background: url(&quot;assets/img/Presentation[5472%20x%203648]%20-%202019_02_09-13_58_35.jpg&quot;) center / cover no-repeat;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Bogata wiedza na temat BigPicture</h2>
+                    <p class="lead mb-0">Wyłożę z siebie całą wiedzę na temat BigPicture jaką zasięgnąłem na szkoleniach, przeczytałem w książkach, usłyszałem w kuluarach i doświadczyłem sam prowadząc warsztaty.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img" style="background: url(&quot;assets/img/cinema_event_storming_inputs.png&quot;) center / cover no-repeat;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Warsztaty BigPicture</h2>
+                    <p class="lead mb-0">Pokażę Ci jak krok po kroku prowadzić warsztat BigPicture powiązany z wyznaczonym celem.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white order-lg-2 showcase-img" style="background: url(&quot;assets/img/IMG_2171.jpg&quot;) center / cover no-repeat;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Weryfikację zadań domowych</h2>
+                    <p class="lead mb-0">Będę sprawdzał Twoje zadania domowe. Pisał sugestie - jeżeli będzie taka potrzeba.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img" style="background: url(&quot;assets/img/brakmiejsca.jpg&quot;) center / cover no-repeat;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Wiedzę jak dobierać ludzi do warsztatu</h2>
+                    <p class="lead mb-0">Ludzie są bardzo istotni na warsztacie BigPicture. Powinni być wyselekcjonowani zgodnie z celem warsztatu.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white order-lg-2 showcase-img" style="background: url(&quot;assets/img/dart.jpg&quot;) no-repeat;background-size: cover;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Określanie celu</h2>
+                    <p class="lead mb-0">Cel jest niezwykle ważny. Od jego określenia i dobrania elementów BigPicture wszystko zależy. Pokażę Ci jak to zrobić.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img" style="background: url(&quot;assets/img/IMG_313600651_czerwca%2024,%202016.jpg&quot;) no-repeat;background-size: cover;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Co zrobić po warsztacie?</h2>
+                    <p class="lead mb-0">Dowiesz się co zrobić po warsztacie. Także takim, który się nie powiedzie.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white order-lg-2 showcase-img" style="background: url(&quot;assets/img/20210618_185555.jpg&quot;) right / cover no-repeat;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Narzędzia pracy facylitatora</h2>
+                    <p class="lead mb-0">Pokażę Ci z jakich narzędzi korzysta prowadzący warsztat w trakcie sesji BigPicture.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img" style="background: url(&quot;assets/img/IMG_0254.jpg&quot;) right / cover no-repeat;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Prowadzenie warsztatu</h2>
+                    <p class="lead mb-0">Pokażę Ci jak przygotować warsztat i go przeprowadzić zarówno w formie offline jak i online.</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2 style="text-align: center;font-size: 40px;">Cena regularna [PLN]</h2>
+                    <h1 class="mb-0" style="text-align: center;font-weight: bold;font-size: 80px;text-decoration: line-through;color: var(--bs-gray);">999</h1>
+                </div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2 style="text-align: center;font-size: 40px;font-weight: bold;">Cena [PLN]</h2>
+                    <h1 class="text-center mb-0" style="font-size: 144px;text-align: center;text-shadow: 7px 7px 10px var(--bs-gray-900);color: var(--bs-green);font-weight: bold;filter: blur(0px) sepia(0%);">567</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="highlight-blue" style="background: var(--bs-orange);">
+        <div class="container">
+            <div class="intro">
+                <h1 class="text-center" style="color: var(--bs-body-color);">To twój czas.</h1>
+                <p class="text-center" style="color: var(--bs-body-color);font-size: 24px;font-weight: bold;">Do 21.00 30 grudnia 2021 masz czas na zakup.</p>
+                <p class="text-center" style="color: var(--bs-body-color);font-size: 24px;">Nie czekaj zbyt długo z decyzją. Po tym terminie wracam z propozycją w wyższej cenie.</p>
+                <p class="text-center" style="color: var(--bs-body-color);font-size: 24px;">Pamiętaj też o gwarancji satysfakcji.<strong> Do 20 stycznia 2022 możesz dokonać zwrotu.</strong></p>
+            </div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="https://secure.tpay.com/?h=f9ad33b6d1c72bce7e95047dbe91d6e5f6b214e5" style="font-size: 34px;color: var(--bs-body-color);background: var(--bs-yellow);" target="_blank">Wchodzę w to! Bez ryzyka.</a>
+                <div style="width: auto;color: var(--bs-body-color);"><span style="font-size: 20px;width: auto;text-align: center;">Przed dołączeniem. Zapoznaj się z <a class="d-inline-block" href="https://courses.mrdev.pl/private-policy" target="_blank" style="color: var(--bs-light);text-decoration: none;">Polityką Prywatności<br></a>&nbsp;i&nbsp;<a href="https://courses.mrdev.pl/terms-and-conditions" style="color: var(--bs-light);text-decoration: none;">Regulaminem.<br></a></span></div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center testimonials" style="padding-bottom: 50px;padding-top: 50px;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center d-xl-flex justify-content-xl-center">
+                    <h1 class="mb-5">Prowadzący</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container d-xl-flex justify-content-xl-center" style="text-align: center;background: #ffffff;">
+            <div class="row g-0">
+                <div class="col-lg-6 text-center text-white d-lg-flex justify-content-lg-center align-items-lg-center showcase-img"><img src="assets/img/speaker-1.jpg" style="width: 300px;"></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Krzysztof Owsiany ergo MrDev</h2>
+                    <p class="lead mb-0">Programista z zamiłowania od dziecka. Prelegent na wielu polskich konferencjach i meetupach. Prowadził wiele warsztatów z EventStormingu i tematów powiązanycy w Polsce i za granicą. Propagator EventStormingu.</p>
+                    <p class="lead mb-0">Po przeszło 13 latach w branży nie chce mu się już kodować po omacku. Wszędzie widzi posti-ty i chce stosować proste techniki odkrywania problemów. Zrozumiałe zarówno dla ludzi technicznych jak i nie technicznych.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="padding-top: 50px;padding-bottom: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center d-xl-flex justify-content-xl-center">
+                    <h1 class="mb-5">FAQ</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="accordion" role="tablist" id="accordion-1">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1" style="font-size: 20px;">Czy dostanę fakturę VAT?</button></h2>
+                            <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1" style="font-size: 20px;">
+                                <div class="accordion-body">
+                                    <p class="mb-0">Tak. Jeżeli potrzebujesz faktury VAT na firmę. Po dokonaniu zakupu skontaktuj się przy pomocy e-maila:&nbsp;<a href="mailto:krzysztof@modelc4.pl?subject=[VAT]: proszę o wystawienie FV.">krzysztof@mrdev.pl</a><br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2" style="font-size: 20px;">Co jeśli kurs mi się nie spodoba?</button></h2>
+                            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    <p class="mb-0" style="font-size: 20px;">Na kurs udzielana jest 100% gwarancja satysfakcji. Oznacza to, że możesz zwrócić kurs do&nbsp;<strong>20 stycznia 2022 roku</strong>. Bez podania przyczyny.<br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3" style="font-size: 20px;">Czy są jakieś wymagania techniczne?</button></h2>
+                            <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    <p class="mb-0" style="font-size: 20px;">Najnowsza wersja przeglądarki Chrome, Firefox lub Opera. Przeglądarka Internet Explorer lub Edge nie jest zalecana.<br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="false" aria-controls="accordion-1 .item-4" style="font-size: 20px;">Czy wymagane są płatne narzędzia?</button></h2>
+                            <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    <p class="mb-0" style="font-size: 20px;">Nie. Program opiera się o darmowe narzędzia lub takie, które da się używać w wersji darmowej lecz z ograniczonymi możliwościami. Nie ma potrzeby dokonywania dodatkowych zakupów w trakcie nauki.<br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-5" aria-expanded="false" aria-controls="accordion-1 .item-5" style="font-size: 20px;">Czy dam radę przejść program po godzinach?</button></h2>
+                            <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    <p class="mb-0" style="font-size: 20px;">Tak jak najbardziej. W każdym z tygodni musisz poświęcić od 1 do 4 godzin na zapoznanie się z materiałem oraz praktykę.<br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-6" aria-expanded="false" aria-controls="accordion-1 .item-6" style="font-size: 20px;">Czy muszę kupić materiały do przejścia kursu?</button></h2>
+                            <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#accordion-1">
+                                <div class="accordion-body">
+                                    <p class="mb-0" style="font-size: 20px;">Będziemy się opierać o oprogramowanie działające online. Nie ma w takiej sytuacji potrzeby kupowania materiałów. Jeżeli chcesz poćwiczyć z wykorzystaniem markerów, folii, postitów. To nic nie stoi na przeszkodzie by je wykorzystać.<br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="highlight-blue" style="background: var(--bs-orange);">
+        <div class="container">
+            <div class="intro">
+                <h1 class="text-center d-xl-flex justify-content-xl-center" style="color: var(--bs-body-color);">Rozwiałem już wszystkie wątpliwości?</h1>
+                <p class="text-center" style="color: var(--bs-body-color);font-size: 24px;font-weight: bold;">Pora na Twój krok.</p>
+            </div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="https://secure.tpay.com/?h=f9ad33b6d1c72bce7e95047dbe91d6e5f6b214e5" style="font-size: 34px;color: var(--bs-body-color);background: var(--bs-yellow);" target="_blank">KUPUJĘ! Bez ryzyka kurs BigPicture.</a>
+                <div style="width: auto;color: var(--bs-body-color);"><span style="font-size: 20px;width: auto;text-align: center;">Przed dołączeniem. Zapoznaj się z <a class="d-inline-block" href="https://courses.mrdev.pl/private-policy" target="_blank" style="color: var(--bs-light);text-decoration: none;">Polityką Prywatności<br></a>&nbsp;i&nbsp;<a href="https://courses.mrdev.pl/terms-and-conditions" style="color: var(--bs-light);text-decoration: none;">Regulaminem.<br></a></span></div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-light footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><a href="https://mrdev.pl/fb"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="https://mrdev.pl/tw"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="https://mrdev.pl/instagram"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/krzysztof-owsiany-1a218876/"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                    </ul>
+                    <p class="copyright text-muted text-center">Copyright © GemuStudio 2021</p>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function () {
-
-            $('.smooth-goto').on('click', function () {
-                $('html, body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-                return false;
-            });
-
-
-            $('#join_button').on('click', function () {
-                var form = document.getElementById("mc-embedded-subscribe-form");
-                form.submit();
-                $.get("https://szkolaeventstormingu.pl?utm_source=self&utm_medium=sub&utm_campaign=szkolaeventstormingu&utm_content=submit");
-            
-                return false;
-            });
-        });
-    </script>    
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5f6e076ef0e7167d0013c5b5/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
